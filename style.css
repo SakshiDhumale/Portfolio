@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*styling*/
+@font-face {
+    font-family: Bogart;
+    src: url(Bogart-Semibold-trial.ttf);
+}
+@font-face {
+    font-family: Conserta;
+    src: url(ConsertaDemoRegular-2znv.ttf);
+}
+@font-face {
+    font-family: Glametrix;
+    src: url(Glametrix-oj9A.otf);
+}
+.menubar{
+    position: fixed;
+    top: 0rem;
+    height:7rem;
+    width:100%;
+    background-color: #333456;
+}
+.links{
+    display: inline-block;
+    font-family: Bogart;
+    font-size: 1.5rem;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 4rem 0rem 1rem 2rem;
+
+}
+#fb{
+    position: fixed;
+    top:4rem;
+    left:71rem;
+    display:inline-block;
+    max-width:2rem;
+}
+#ld{
+    position: fixed;
+    top:4rem;
+    left:75rem;
+    display: inline-block;
+    max-width: 2.35rem;
+}
+.Intro{
+    background-image: url('Background.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: block;
+    width: 100%;
+    height:35rem;
+}
+.hi {
+    display: block;
+    margin-top:7rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto ; 
+    padding-top: 1.5rem;
+    width: 17%;
+}
+.greetings {
+   position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: #333456;
+    width: 37rem;
+    height: 3rem;
+    overflow:hidden;
+    }
+.animate1{
+    margin-bottom: 1rem;
+    border-right: 2px solid#333456;
+    animation: typewriter1 3s steps(30) 1 normal both,
+               blinkcursor 500ms steps(40) infinite normal;
+    }
+@keyframes typewriter1 {
+    from{
+         width:0rem;
+     }
+    to{
+         width:37rem;
+    }
+}
+@keyframes blinkcursor {
+     from{
+         border-right-color: #333456;
+    }
+    to{
+     border-right-color: transparent;
+    }
+}
+.animate2{
+    border-right: 2px solid#333456;
+    animation: typewriter2 2s steps(20) 3.5s 1 normal both,
+               blinkcursor 500ms steps(40) infinite normal;
+ }
+@keyframes typewriter2 {
+    from{
+        width:0rem;
+    }
+    to{
+        width:30rem;
+    }
+}  
+h1{
+    font-family: Conserta;
+    font-size: 7.5rem;
+    padding-bottom:1rem;
+    color:#333456;
+}
+p{
+    font-family:Glametrix;
+    font-size: 2rem;
+    color:#333456;
+}
+hr{
+    border-style: dotted none none; 
+    border-width:0.4rem;
+    width:5rem;
+    height: 0rem;
+    border-color: #595B83;
+    margin-top:4rem;
+    margin-bottom:4rem;
+ } 
+.writeup{
+    display:inline-flex;
+}
+#education{
+    width:50%;
+    display:inline-block;
+    margin: 3rem;
+}
+#workphilosophy{
+    width:56%;
+    display:inline-block;
+    margin: 3rem;
+}
+#involvements{
+    width:50%;
+    display:inline-block;
+    margin: 3rem;
+}        
+#achivements{
+    width:50%;
+    display:inline-block;
+    margin: 3rem;
+}
+#contact{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}   
+.illustrations{
+    margin:3rem;
+    padding-left: 5rem;
+}
